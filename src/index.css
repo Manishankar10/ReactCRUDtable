@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.tout{
+  width: 100%;
+  margin: 5px;
+}
+.t1{
+  padding: 10px;
+}
+table,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.f1{
+ width:100%;
+ float:left;
+ border: 2px solid green;
+ background-color: rgb(151, 175, 221);
+ height: 633px;
+}
+form>div{
+  padding: 10px;
+  margin:20px;
+
+}
+.search{
+  width: 40%;
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid gray  ;
+}
+.bs{
+  
+  border: 2px solid white;
+}
+.bs:hover{
+  background-color: gray;
+  color: white;
+}
+.bd{
+    border: 2px solid white;
+    margin: 10px;
+}
+.bd:hover{
+  background-color: gray;
+  color: white;
+}
+.L1{
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+}
+.L1:hover{
+  color: blue;
+}
+.L2{
+  text-decoration: none;
+  display: flex;
+  float: right;
+  margin-right: 10px;
+  color: black;
+}
+.L2:hover{
+  color: blue;
+}
+table>tbody>tr>:nth-child(1){
+  border: 1px solid black;
+}
+table>tbody>tr>:nth-child(2){
+  border: 1px solid black;
+}
+table>tbody>tr>:nth-child(3){
+  border: 1px solid black;
+}
+table>tbody>tr>:nth-child(4){
+  border: 1px solid black;
+}
